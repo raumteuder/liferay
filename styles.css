@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #eef1f3;
 }
 .sprite {
   background: url("sprite.png") no-repeat top left;
@@ -18,4 +19,7 @@ body {
 
 header.info > h1 {
   transform: scale(1, 1.3);
+}
+.nav-gradient {
+  background: linear-gradient(#f8f8f8, #c6c6c6);
 }
