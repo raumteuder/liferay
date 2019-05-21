@@ -1,0 +1,14 @@
+.sprite {
+  background: url("sprite.png") no-repeat top left;
+  width: 22px;
+  height: 27px;
+}
+.sprite.left {
+  background-position: 0 0;
+}
+.sprite.middle {
+  background-position: -24px 0;
+}
+.sprite.right {
+  background-position: -48px 0;
+}
