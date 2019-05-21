@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 .sprite {
   background: url("sprite.png") no-repeat top left;
   width: 22px;
