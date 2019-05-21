@@ -33,8 +33,12 @@
           src="brand.png"
           alt="container for brand image"
         />
-        <h1 class="float-left">LIFERAY.</h3>
-        <button type="button" class="btn btn-secondary btn-lg float-right">
+        <h1 class="float-left">LIFERAY.</h1>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg float-right font-weight-bold"
+        >
+          <img src="demo-btn.png" alt="button icon" />
           Bootstrap Demo
         </button>
       </header>
@@ -49,21 +53,22 @@
       <!-- section for article in main area -->
       <section class="col-sm-7 border rounded">
         <!-- navbar for article -->
-        <nav class="navbar border rounded my-2  mb-3">
-          <h3>
+        <nav class="navbar bg-light border rounded my-2 p-0 px-2 mb-3">
+          <img src="web-cntnt.png" alt="image placeholder" class="mr-2" />
+          <h5 class="font-weight-bold pt-2 mr-auto">
             Web Content Display
-          </h3>
+          </h5>
           <div class="justify-content-end">
-            <a class="mx-1" href="#"><i class="fas fa-wrench"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-minus"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-plus"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-times"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-wrench"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-minus"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-plus"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-times"></i></a>
           </div>
         </nav>
         <!-- article inside section in main -->
         <article>
-          <h2>This is main content</h2>
-          <p>
+          <h2 class="font-weight-bold mt-5 mb-4">This is main content</h2>
+          <h6>
             Lorem ipsum dolor sit amet consectetur adipiscing elit, arcu primis
             eros duis habitant lobortis ante placerat, orci phasellus neque
             hendrerit aliquet venenatis. Quisque magna parturient suspendisse
@@ -74,6 +79,7 @@
             varius convallis pretium diam, commodo malesuada scelerisque eget in
             condimentum sociis. Velit per vitae volutpat rutrum at suscipit ac
             aptent potenti dictumst dui <br />
+            <br />
             vestibulum vulputate. Inceptos mauris torquent nibh nisl facilisis
             metus leo quis felis laoreet, nascetur sodales curabitur a lacinia
             faucibus senectus maecenas tincidunt ut nulla, proin nostra interdum
@@ -84,34 +90,34 @@
             metus, mus habitant tortor nam. Commodo molestie tellus egestas
             porttitor netus felis, habitasse penatibus mattis dignissim nulla
             dis cum, lectus tristique
-          </p>
+          </h6>
         </article>
         <!-- footer for section -->
-        <footer class="d-flex"> 
-                <a href="#" class='sprite left'></a>
-                <a href="#" class='sprite middle'></a>
-                <a href="#" class='sprite right'></a>
+        <footer class="d-flex mt-4">
+          <a href="#" class="sprite edit"></a>
+          <a href="#" class="sprite setting"></a>
+          <a href="#" class="sprite add"></a>
         </footer>
-
       </section>
       <!-- sidebar for another article in main  -->
       <aside class="col-sm-4 border rounded">
         <!-- navbar for article -->
-        <nav class="navbar border rounded my-2 mb-3">
-          <h3>
+        <nav class="navbar bg-light border rounded my-2 p-0 px-1 mb-3">
+          <h5 class="font-weight-bold pt-2 mr-auto">
+            <img src="web-cntnt.png" alt="image placeholder" class="mr-1" />
             Sidebar Display
-          </h3>
+          </h5>
           <div class="justify-content-end">
-            <a class="mx-1" href="#"><i class="fas fa-wrench"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-minus"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-plus"></i></a>
-            <a class="mx-1" href="#"><i class="fas fa-times"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-wrench"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-minus"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-plus"></i></a>
+            <a class="text-dark mx-1" href="#"><i class="fas fa-times"></i></a>
           </div>
         </nav>
         <!-- article inside sidebar in main -->
         <article>
-          <h2>Sidebar</h2>
-          <p>
+          <h2 class="font-weight-bold mt-5 mb-4">Sidebar</h2>
+          <h6>
             Lorem ipsum dolor sit amet consectetur adipiscing elit, arcu primis
             eros duis habitant lobortis ante placerat, orci phasellus neque
             hendrerit aliquet venenatis. Quisque magna parturient suspendisse
@@ -125,18 +131,20 @@
             adipisicing elit. Nam est similique amet, dolore ut in! Nisi
             molestias odit quis et eum eligendi soluta facilis quae
             perspiciatis, obcaecati quidem eius debitis.
-          </p>
+          </h6>
         </article>
         <!-- footer for sidebar -->
-        <footer class="d-flex mb-2"> 
-                <a href="#" class='sprite left'></a>
-                <a href="#" class='sprite middle'></a>
-                <a href="#" class='sprite right'></a>
+        <footer class="d-flex mb-2 mt-4">
+          <a href="#" class="sprite edit"></a>
+          <a href="#" class="sprite setting"></a>
+          <a href="#" class="sprite add"></a>
         </footer>
       </aside>
     </main>
     <!-- footer starts here -->
-    <footer class="float-right m-3 mr-5 ">Powered by <a href="#">Liferay`</a></footer>
+    <footer class="float-right m-3 mr-5 ">
+      Powered by <a href="#">Liferay`</a>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

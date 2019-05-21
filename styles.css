@@ -3,12 +3,16 @@
   width: 22px;
   height: 27px;
 }
-.sprite.left {
+.sprite.edit {
   background-position: 0 0;
 }
-.sprite.middle {
+.sprite.setting {
   background-position: -24px 0;
 }
-.sprite.right {
+.sprite.add {
   background-position: -48px 0;
+}
+
+header.info > h1 {
+  transform: scale(1, 1.5);
 }
